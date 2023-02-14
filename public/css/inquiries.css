@@ -13,14 +13,18 @@
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 600px) {
-  .inquiries .status-view {
-    top: 100px;
-  }
-}
 .inquiries .radioButtons {
   display: flex;
   width: fit-content;
+}
+@media (max-width: 600px) {
+  .inquiries .status-view {
+    top: 60px;
+    display: block;
+  }
+  .inquiries .radioButtons {
+    margin: 0 auto;
+  }
 }
 .inquiries .radioButtons .status {
   margin-right: 20px;

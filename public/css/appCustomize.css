@@ -13,10 +13,10 @@ main .home {
 
 @media (max-width: 600px) {
   nav {
-    height: 100px;
+    height: 60px;
   }
   main {
-    height: 90vh;
+    /* height: 90vh; */
   }
 }
 
@@ -35,7 +35,7 @@ footer {
   width: 100%;
   background-color: #dee5db;
   text-align: center;
-  height: 5vh;
+
 }
 footer ul {
   padding-left: 0;

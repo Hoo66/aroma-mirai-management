@@ -81,16 +81,16 @@
             @yield('content')
         </main>
 
-        <footer>
-          @if(request()->path() != '/')
-          <ul>
-            <li><a href="/">Homeに戻る</a></li>
-          </ul>
-          @endif
-          <p><small>&copy;FS 2023</small></p>
-        </footer>
-
-    </div>
+        
+      </div>
+      <footer>
+        @if(request()->path() != '/')
+        <ul>
+          <li><a href="/">Homeに戻る</a></li>
+        </ul>
+        @endif
+        <p><small>&copy;FS 2023</small></p>
+      </footer>
 
     
 </body>
