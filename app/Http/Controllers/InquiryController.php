@@ -24,8 +24,6 @@ class InquiryController extends Controller
       }
 
 
-      error_log($status);
-
       return view('inquiries', [
         'inquiries' => $inquiries,
         'status' => $status

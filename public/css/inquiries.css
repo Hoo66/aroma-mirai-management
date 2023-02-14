@@ -1,12 +1,17 @@
+.inquiries .page-title {
+  font-size: 24px;
+}
 .inquiries .status-view {
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
   position: sticky;
   top: 100px;
   z-index: 100;
   background-color: #DEE5DB;
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 600px) {
   .inquiries .status-view {
@@ -16,17 +21,12 @@
 .inquiries .radioButtons {
   display: flex;
   width: fit-content;
-  margin: 0 auto;
 }
 .inquiries .radioButtons .status {
   margin-right: 20px;
 }
 .inquiries .radioButtons label {
   display: inline;
-}
-.inquiries .list-view {
-  position: relative;
-  top: 20px;
 }
 .inquiry-card {
   display: block;

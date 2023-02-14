@@ -4,6 +4,7 @@
   <div class="inquiries">
 
     <div class="status-view">
+      <div class="page-title">お問合せ管理</div>
       <form action="/inquiries/filter" method="get" class="radioButtons" id="radioButtons">
         <div class="status">
           <input type="radio" id="pending" name="status" value="pending" 

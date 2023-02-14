@@ -27,7 +27,9 @@
 }
 .inquiry-details .detail .p-content {
   line-height: 1.5;
-  /* width: calc(100% - 100px); */
+  white-space: pre-line;
+  font-size: 16px !important;
+  font-family: inherit;
 }
 .inquiry-details .delete-inquiry {
   display: block;
@@ -66,9 +68,6 @@
   display: inline;
   margin-left: 10px;
 }
-
-
-
 .inquiry-manage-form .memo {
   background-color: #fff;
   width:100%;
@@ -86,7 +85,6 @@
   margin: 20px auto 0;
   width: fit-content;
   border-radius: 4px;
-
 }
 
 

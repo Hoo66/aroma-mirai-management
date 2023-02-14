@@ -21,7 +21,7 @@
     </div>
     <div class="detail">
       <p class="p-header">内容</p>
-      <p class="p-content">{{ $inquiry['detail']}}</p>
+      <pre class="p-content">{{$inquiry['detail']}}</pre>
     </div>
     <button id="delete-inquiry" class="delete-inquiry">削除</button>
   </div>
@@ -62,7 +62,7 @@
       </div>
   
       <label for="memo">メモ：</label>
-      <textarea name="memo" class="memo">{{ $inquiry['memo'] }}</textarea>
+      <textarea name="memo" class="memo">{{$inquiry['memo']}}</textarea>
       <input type="submit" value="保存" class="save-button">
     </form>
   </div>
