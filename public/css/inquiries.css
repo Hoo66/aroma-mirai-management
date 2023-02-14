@@ -1,0 +1,64 @@
+.inquiries .status-view {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: sticky;
+  top: 100px;
+  z-index: 100;
+  background-color: #DEE5DB;
+}
+@media (max-width: 600px) {
+  .inquiries .status-view {
+    top: 100px;
+  }
+}
+.inquiries .radioButtons {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+.inquiries .radioButtons .status {
+  margin-right: 20px;
+}
+.inquiries .radioButtons label {
+  display: inline;
+}
+.inquiries .list-view {
+  position: relative;
+  top: 20px;
+}
+.inquiry-card {
+  display: block;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.inquiry-card .table-row {
+  border-bottom: 1px solid #eee;
+}
+.inquiry-card .flex .table-row {
+  width: 50%;
+}
+.inquiry-card .table-header {
+  padding: 10px;
+  width: 150px;
+  background-color: #f8ede3;
+}
+.inquiry-card .table-detail {
+  padding: 10px;
+  overflow-wrap:break-word;
+}
+@media (min-width: 600px) {
+  .inquiry-card .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .inquiry-detail {
+    display: none;
+  }
+}

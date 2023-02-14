@@ -1,0 +1,96 @@
+body {
+  background-color: #dee5db !important;
+}
+
+main {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  main {
+    width: 95%;
+  }
+}
+
+h1 {
+  font-size: 32px;
+  color: #707070;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-title {
+  padding-top: 120px;
+  margin-bottom: 60px;       
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+img {
+  box-shadow: 0 0 10px #aaa;
+  object-fit: cover;
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+input, textarea {
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 800px) {
+
+
+  .container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+/* --------------- */
+/* ヘッダー */
+/* --------------- */
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 100px;
+  }
+}
+
+
+/* フッター */
+footer {
+  padding-top: 40px;
+}
+footer p {
+  text-align: center;
+}

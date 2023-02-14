@@ -1,0 +1,49 @@
+nav {
+  background-color: #F8EDE3;
+  height: 100px;
+}
+
+main {
+  background-color: #dee5db;
+}
+main .home {
+  height: calc(100vh - 180px - 5vh);
+
+}
+
+@media (max-width: 600px) {
+  nav {
+    height: 100px;
+  }
+  main {
+    height: 90vh;
+  }
+}
+
+.nav-item {
+  z-index: 1000;
+}
+.card {
+  margin-top: 30px;
+}
+.card-body a {
+  text-decoration: none;
+  color: rgb(0 0 0 / 90%);
+}
+
+footer {
+  width: 100%;
+  background-color: #dee5db;
+  text-align: center;
+  height: 5vh;
+}
+footer ul {
+  padding-left: 0;
+}
+footer p {
+  margin-bottom: 0;
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}

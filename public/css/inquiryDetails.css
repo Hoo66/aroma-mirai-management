@@ -1,0 +1,144 @@
+.inquiry-details {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 15px 30px 30px;
+  border-radius: 10px;
+}
+.inquiry-details>div {
+  margin-top: 20px;
+  border-bottom: solid #ccc 1px;
+}
+
+.inquiry-details .flex {
+  display: flex;
+}
+@media (max-width: 600px) {
+  
+  .inquiry-details .flex {
+    display: block;
+  }
+}
+
+.inquiry-details p {
+  margin-bottom: 10px;
+}
+.inquiry-details .p-header {
+  width: 100px;
+}
+.inquiry-details .detail .p-content {
+  line-height: 1.5;
+  /* width: calc(100% - 100px); */
+}
+.inquiry-details .delete-inquiry {
+  display: block;
+  background-color: #f8e2e2;
+  padding: 4px 8px;
+  width: fit-content;
+  margin: 20px 0 0 auto;
+  border-radius: 4px;
+  position: relative;
+}
+
+.inquiry-manage-form {
+  background-color: #f9f3ed;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.inquiry-manage-form .label-for-status {
+  margin-bottom: 0;
+}
+.inquiry-manage-form .status-view {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: transparent;
+}
+.inquiry-manage-form .radioButtons {
+  display: flex;
+  width: fit-content;
+}
+.inquiry-manage-form .radioButtons .status {
+  margin-right: 20px;
+}
+.inquiry-manage-form .radioButtons label {
+  display: inline;
+  margin-left: 10px;
+}
+
+
+
+.inquiry-manage-form .memo {
+  background-color: #fff;
+  width:100%;
+  height: 200px;
+  margin: 10px auto 0;
+  border-radius: 4px;
+  padding: 10px;
+  resize: none;
+}
+.inquiry-manage-form .save-button {
+  display: block;
+  background-color: #9bc68c;
+  color: #fff;
+  padding: 8px 16px;
+  margin: 20px auto 0;
+  width: fit-content;
+  border-radius: 4px;
+
+}
+
+
+
+
+.return-top {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Modal */
+.hideModal {
+  display: none !important;
+}
+
+.delete-inquiry-modal {
+  background-color: rgba(100, 100, 100, 0.5);
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.close-modal-button {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.modal-inner {
+  width: 40%;
+  min-width: 600px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  padding: 60px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.modal-inner button {
+  margin-top: 40px;
+  background-color: #f67777;
+  color: #fff;
+  padding: 8px 16px;
+  width: fit-content;
+  border-radius: 4px;
+}
