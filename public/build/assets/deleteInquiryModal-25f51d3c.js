@@ -1,0 +1,1 @@
+const t=document.getElementById("delete-inquiry"),e=document.querySelector(".delete-inquiry-modal"),l=document.querySelector(".close-modal");t.addEventListener("click",()=>{e.classList.remove("hideModal")});l.addEventListener("click",d=>{d.target.matches(".close-modal")&&e.classList.add("hideModal")});
