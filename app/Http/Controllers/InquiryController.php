@@ -9,7 +9,8 @@ class InquiryController extends Controller
 {
     public function index() {
       $inquiries = Inquiry::all()->sortByDesc('created_at');
-
+      // $inquiries = Carbon::parse($inquiries)->timezone('Asia/Tokyo');
+      
       return view('inquiries', [
         'inquiries' => $inquiries,
       ]);

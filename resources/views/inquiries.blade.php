@@ -1,3 +1,6 @@
+<?php
+  use Carbon\Carbon;
+?>
 @extends('layouts.app')
 
 @section('content')
@@ -50,7 +53,7 @@
           <div class="table-detail">{{ $inquiry['subject']}}</div>
         </div>
         <div class="table-row flex">
-          <div class="table-detail">{{ $inquiry['created_at']->setTimezone('Asia/Tokyo')}}</div>
+          <div class="table-detail">{{ Carbon::parse($inquiry['created_at'])->timezone('Asia/Tokyo')}}</div>
           <div class="table-detail">{{ $inquiry['name']}}<span> <</span>{{ $inquiry['email']}}<span>></span></div>
         </div>
         <div class="table-row flex inquiry-detail">
