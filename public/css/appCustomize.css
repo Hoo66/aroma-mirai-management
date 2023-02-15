@@ -6,14 +6,20 @@ nav {
 main {
   background-color: #dee5db;
 }
-main .home {
-  height: calc(100vh - 180px - 5vh);
+.nav-link {
+  text-align: right;
+}
 
+main .home {
+  min-height: 800px;
 }
 
 @media (max-width: 600px) {
   nav {
     height: 60px;
+  }
+  main .home {
+    min-height: 500px;
   }
 
 }
